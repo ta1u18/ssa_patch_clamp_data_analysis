@@ -1,34 +1,22 @@
-# ssa_patch_clamp_data_analysis
+# Patch Clamp Data Analysis
 
-A repository to share the code used to analysis the patch clamp data in the paper -
+This repository provides a set of tools implemented in Python for the analysis of patch clamp data, as described in the paper *[Insert Paper Title]*. The primary component is the `functions.py` module, which contains a `patchclampdata` class object designed to facilitate thresholding and plotting of patch clamp data from CSV files. While the current implementation is a first draft, it aims to serve as a foundational framework for researchers interested in conducting similar analyses.
 
-functions.py contains:
+## Contents
 
-patchclampdata object - the aim of this object is to take a location of a CSV file contain patch clamp data and add functionallity for thresholding and plotting
-    this is very much a first run at somthing like this so there is lots of code cleaning and optimisation that can be made 
-    though we hope it can act as a starting point for people implimenting this kind of method of analysis to patch clampe data.
-    
-The function was written to deal with fixed voltage postive current experiments though has been used to analyse all data in the paper using some work arounds
+- **functions.py**: This module houses the `patchclampdata` object, designed to take a CSV file containing patch clamp data and provide functionality for thresholding and plotting. While currently optimized for fixed voltage positive current experiments, it can be adapted for broader use cases. Note that there is room for code cleaning and optimization.
 
-demo.ipynb:
+- **demo.ipynb**: A Jupyter Notebook demonstrating the usage of the functions provided in `functions.py`. This notebook showcases how the functions were utilized to generate figures for the associated paper.
 
-a jupyter notebook used to show an example of the function is used and the figures for the paper were generated
+- **data.csv**: An example CSV file containing patch clamp data. This dataset is for use in `demo.ipynb`.
 
-data.csv:
+- **organise_patchclamp_files.ipynb**: This notebook outlines the process of organizing .asc files into separate folders for each experiment ID.
 
-contains an example of some patch clamp data to use in demo.ipynb
+- **asc_to_csv_conversion.ipynb**: Details the conversion process from ASC files to CSV format. 
 
-organise_patchclamp_files.ipynb:
-
-how the asc files were moved in to there own folder for each experiment_id (this is specific to this expeimental implimnetation though the method will be transferable)
-
-asc_to_csv_conversion.ipynb:
-
-how the asc file were converted to csv files
-
-
-
+## Comments
 
 This is very much a proof of concept and though it can generate the figures there is room for improvment in code quality, commenting and implimnetation.
 
-We hope this will be useful as a start point for people interseted in analysising patch calmp data in python.
+We hope this will be useful as a start point for people interseted in analysising patch clamp data in python.
+
