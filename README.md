@@ -14,7 +14,7 @@ demo.ipynb:
 
 a jupyter notebook used to show an example of the function is used and the figures for the paper were generated
 
-data:
+data.csv:
 
 contains an example of some patch clamp data to use in demo.ipynb
 
