@@ -1,7 +1,6 @@
 # Patch Clamp Data Analysis
 
-This repository provides a set of tools implemented in Python for the analysis of patch clamp data, as described in the paper *[Insert Paper Title]*. The primary component is the `functions.py` module, which contains a `patchclampdata` class object designed to facilitate thresholding and plotting of patch clamp data from CSV files. While the current implementation is a first draft, it aims to serve as a foundational framework for researchers interested in conducting similar analyses.
-
+This repository provides a set of tools implemented in Python for the analysis of patch clamp data, as described in the paper *[Insert Paper Title]*. The primary component is the `functions.py` module, which contains a `patchclampdata` class object designed to facilitate thresholding and plotting of patch clamp data from CSV files.
 ## Contents
 
 - **functions.py**: This module houses the `patchclampdata` object, designed to take a CSV file containing patch clamp data and provide functionality for thresholding and plotting. While currently optimized for fixed voltage positive current experiments, it can be adapted for broader use cases. Note that there is room for code cleaning and optimization.
