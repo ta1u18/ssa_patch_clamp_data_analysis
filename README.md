@@ -9,13 +9,13 @@ This repository provides a set of tools implemented in Python for the analysis o
 
 - **data.csv**: An example CSV file containing patch clamp data. This dataset is for use in `demo.ipynb`.
 
-- **organise_patchclamp_files.ipynb**: This notebook outlines the process of organizing .asc files into separate folders for each experiment ID.
+- **organise_patchclamp_files.ipynb**: This notebook outlines the process of organizing .asc files into separate folders in the stucture molecule_id/exp_condition/experiment_id.
 
 - **asc_to_csv_conversion.ipynb**: Details the conversion process from ASC files to CSV format. 
 
 ## Comments
 
-This is very much a proof of concept and though it can generate the figures there is room for improvment in code quality, commenting and implimnetation.
+This is very much a proof of concept and though it can generate the figures there is room for improvment in code quality, commenting and implimentation.
 
 We hope this will be useful as a start point for people interseted in analysising patch clamp data in python.
 
